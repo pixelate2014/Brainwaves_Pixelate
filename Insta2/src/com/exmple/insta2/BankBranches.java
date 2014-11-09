@@ -8,6 +8,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.RadioButton;
 
+/**
+ * 
+ * @author Vaibhav
+ *
+ */
 public class BankBranches extends ActionBarActivity {
 	public void onRadioButtonClicked(View view) {
 	    // Is the button now checked?
