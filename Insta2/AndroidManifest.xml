@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.exmple.insta2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayMessageActivity1"
+            android:label="@string/title_activity_display_message_activity1" >
+        </activity>
+        <activity
+            android:name=".DisplayLocation"
+            android:label="@string/title_activity_display_location"
+            android:parentActivityName=".DisplayMessageActivity1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exmple.insta2.DisplayMessageActivity1" />
+        </activity>
+        <activity
+            android:name=".NoActivity"
+            android:label="@string/title_activity_no"
+            android:parentActivityName=".DisplayLocation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exmple.insta2.DisplayLocation" />
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name=".BankBranches"
+            android:label="@string/title_activity_bank_branches"
+            android:parentActivityName=".DisplayLocation" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.exmple.insta2.DisplayLocation" />
+        </activity>
+        <activity
+            android:name=".KSLayoutActivity"
+            android:label="@string/title_activity_kslayout" >
+        </activity>
+        <activity
+            android:name=".HSRLayoutActivity"
+            android:label="@string/title_activity_hsrlayout" >
+        </activity>
+        <activity
+            android:name=".ISROLayoutActivity"
+            android:label="@string/title_activity_isrolayout" >
+        </activity>
+        <activity
+            android:name=".BellandurActivity"
+            android:label="@string/title_activity_bellandur" >
+        </activity>
+    </application>
+
+</manifest>

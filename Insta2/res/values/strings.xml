@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Insta2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="BankName">Bank</string>
+    <string name="Name">Name</string>
+    <string name="AccountNo ">Account No</string>
+    <string name="Account">Account No</string>
+    <string name="Button">Register</string>
+    <string name="Success">Successfully Registered!</string>
+    <string name="Location">Find Location</string>
+    <string name="Location2">Your Location is</string>
+    <string name="title_activity_display_message_activity1">DisplayMessageActivity1</string>
+    <string name="title_activity_display_location">DisplayLocation</string>
+    <string name="Yes">Ok!</string>
+    <string name="No">No</string>
+    <string name="correct">Is that correct?</string>
+    <string name="title_activity_no">NoActivity</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_bank_branches">BankBranches</string>
+    <string name="title_activity_kslayout">KSLayoutActivity</string>
+    <string name="title_activity_hsrlayout">HSRLayoutActivity</string>
+    <string name="title_activity_isrolayout">ISROLayoutActivity</string>
+    <string name="title_activity_bellandur">BellandurActivity</string>
+    <string name="Choose">Choose Branch to generate token:</string>
+    <string name="HSR">SCG Bank: Hosur Branch</string>
+    <string name="KSL">SCG Bank : Kumarswamy Layout</string>
+    <string name="ISROL">SCG Bank : ISRO Layout</string>
+    <string name="Bellandur">SCG Bank: Bellandur Branch</string>
+    <string name="token">Token No:</string>
+    <string name="time">Time to travel to branch : </string>
+    <string name="enter_text"></string>
+    
+
+</resources>
